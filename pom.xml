@@ -122,26 +122,6 @@
         </executions>
       </plugin>
       <plugin>
-        <artifactId>maven-plugin-plugin</artifactId>
-        <version>3.3</version>
-        <executions>
-          <execution>
-            <id>default-addPluginArtifactMetadata</id>
-            <phase>package</phase>
-            <goals>
-              <goal>addPluginArtifactMetadata</goal>
-            </goals>
-          </execution>
-          <execution>
-            <id>default-descriptor</id>
-            <phase>process-classes</phase>
-            <goals>
-              <goal>descriptor</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.2</version>
         <executions>
